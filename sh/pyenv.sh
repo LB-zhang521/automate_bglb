@@ -88,7 +88,7 @@ create() {
     if [ ! -d $PythonEnvRoot ]; then
         mkdir $PythonEnvRoot
     fi
-    # python3 -m venv $tempPyEnvPath
+    python3 -m venv $tempPyEnvPath
     if [ $? != 0 ]; then
         echo "创建虚拟环境 $envName 失败!"
         exit

@@ -20,12 +20,12 @@ Usage:
        
         * use envName -- 返回激活某个虚拟环境的shell命令
 
-        * exit|deactivate envName -- 退出某个虚拟环境
 
         * list -- 显示所有虚拟环境
     
-    \$(pyenv use envName)
-        使用某个虚拟环境
+    \$(pyenv use envName) -- 使用某个虚拟环境
+
+     deactivate -- 退出某个虚拟环境
 
     pyenv -h      (显示帮助)
 
